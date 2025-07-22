@@ -1,0 +1,22 @@
+// Declare a variable with a string type
+let greeting: string = "Hello, TypeScript!";
+
+// Declare a variable with a number type
+let age: number = 30;
+
+// Declare a variable with a boolean type
+let isActive: boolean = true;
+
+// Define a function with type annotations for parameters and return value
+function add(num1: number, num2: number): number {
+  return num1 + num2;
+}
+
+// Call the function and store the result
+let sum: number = add(5, 10);
+
+// Log values to the console
+console.log(greeting);
+console.log("Age:", age);
+console.log("Is active:", isActive);
+console.log("Sum:", sum);
